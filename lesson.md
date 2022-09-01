@@ -25,7 +25,9 @@ The AWS CLI provides direct access to the public APIs of AWS services. You can e
 ## Part 1 - Prerequisites to use the AWS CLI
 
 Step 1: Sign up to AWS
+
 Step 2: Create an IAM user account
+
 Step 3: Create an access key ID and secret access key
 
 ---
