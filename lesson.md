@@ -44,17 +44,9 @@ You can view the contents of your S3 buckets in a directory-based listing by usi
 
 ```
 $ aws s3 ls s3://mybucket
-
-
         LastWriteTime            Length Name
-
-
         ------------             ------ ----
-
-
                                 PRE myfolder/
-
-
 2022-09-01 09:00:00           1234 myfile.txt
 ```
 
@@ -62,11 +54,7 @@ You can perform recursive uploads and downloads of multiple files in a single fo
 
 ```
 $ aws s3 cp myfolder s3://mybucket/myfolder --recursive
-
-
 upload: myfolder/file1.txt to s3://mybucket/myfolder/file1.txt
-
-
 upload: myfolder/subfolder/file1.txt to s3://mybucket/myfolder/subfolder/file1.txt
 ```
 
@@ -74,7 +62,5 @@ A sync command makes it easy to synchronize the contents of a local folder with 
 
 ```
 $ aws s3 sync myfolder s3://mybucket/myfolder --exclude *.tmp
-
-
 upload: myfolder/newfile.txt to s3://mybucket/myfolder/newfile.txt
 ```
