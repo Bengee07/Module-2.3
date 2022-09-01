@@ -38,6 +38,43 @@ Insert Instructions
 
 ---
 
-## Part 3 - Insert Summary
+## Part 3 - Amazon S3 with CLI
 
-Insert Instructions
+You can view the contents of your S3 buckets in a directory-based listing by using a familiar syntax.
+
+```
+$ aws s3 ls s3://mybucket
+
+
+        LastWriteTime            Length Name
+
+
+        ------------             ------ ----
+
+
+                                PRE myfolder/
+
+
+2022-09-01 09:00:00           1234 myfile.txt
+```
+
+You can perform recursive uploads and downloads of multiple files in a single folder-level command. The AWS CLI will run these transfers in parallel for increased performance.
+
+```
+$ aws s3 cp myfolder s3://mybucket/myfolder --recursive
+
+
+upload: myfolder/file1.txt to s3://mybucket/myfolder/file1.txt
+
+
+upload: myfolder/subfolder/file1.txt to s3://mybucket/myfolder/subfolder/file1.txt
+```
+
+A sync command makes it easy to synchronize the contents of a local folder with a copy in an S3 bucket.
+
+```
+$ aws s3 sync myfolder s3://mybucket/myfolder --exclude *.tmp
+
+
+upload: myfolder/newfile.txt to s3://mybucket/myfolder/newfile.txt
+```
