@@ -32,7 +32,7 @@ Step 3: Create an access key ID and secret access key
 
 ---
 
-## Part 2 - Insert Summary
+## Part 2 - Setup AWS CLI Configuration
 
 Insert Instructions
 
