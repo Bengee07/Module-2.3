@@ -34,7 +34,19 @@ Step 3: Create an access key ID and secret access key
 
 ## Part 2 - Setup AWS CLI Configuration
 
-Insert Instructions
+### Quick configuration with `aws configure`
+
+The AWS CLI stores this information in a profile (a collection of settings) named `default` in the `credentials` file. By default, the information in this profile is used when you run an AWS CLI command that doesn't explicitly specify a profile to use. For more information on the credentials file, see Configuration and credential file settings
+
+The following example shows sample values. Replace them with your own values as described in the following sections.
+
+```
+$ aws configure
+AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Default region name [None]: us-west-2
+Default output format [None]: json
+```
 
 ---
 
