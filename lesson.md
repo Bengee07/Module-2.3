@@ -70,6 +70,8 @@ To create access keys for an IAM user
         - Access key ID: AKIAIOSFODNN7EXAMPLE
         - Secret access key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/106639884/187820309-015034cd-cbc6-4c4d-9871-aee939d79cf6.png">
+
 6. To download the key pair, choose Download .csv file. Store the keys in a secure location. You will not have access to the secret access key again after this dialog box closes. Keep the keys confidential in order to protect your AWS account and never email them. Do not share them outside your organization, even if an inquiry appears to come from AWS or Amazon.com. No one who legitimately represents Amazon will ever ask you for your secret key.
 7. After you download the .csv file, choose Close. When you create an access key, the key pair is active by default, and you can use the pair right away.
 
