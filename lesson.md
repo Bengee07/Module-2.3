@@ -4,6 +4,10 @@
 
 To access AWS services with the AWS CLI, you need an AWS account, IAM credentials, and an IAM access key pair. When running AWS CLI commands, the AWS CLI needs to have access to those AWS credentials.
 
+- Install Visual Studio Code
+- Install NPM
+- Install AWS CLI
+
 ### Lesson Overview
 
 
@@ -29,6 +33,8 @@ Step 1: Sign up to AWS
 Step 2: Create an IAM user account
 
 Step 3: Create an access key ID and secret access key
+
+Step 4: Install AWS CLI using this link: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 ---
 
